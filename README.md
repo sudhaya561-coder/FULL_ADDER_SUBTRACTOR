@@ -36,13 +36,9 @@ Diff = A ⊕ B ⊕ Bin
 
 Borrow out = A'Bin + A'B + BBin
 
-**Truthtable**
-
-**Procedure**
-
-Write the detailed procedure here
 
 **Program:**
+~~~ python
 module exp_3a(A,B,C,sum,carry);
 input A,B,C;
 output sum,carry;
@@ -57,9 +53,7 @@ output dif,bor;
 assign dif=A^B^C;
 assign bor=(~A&C)|(~A&B)|(B&C);
 endmodule
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
-
+~~~
 **RTL Schematic**
 FULL ADDER
 <img width="1461" height="818" alt="Screenshot 2026-03-12 125408" src="https://github.com/user-attachments/assets/27c0b9a6-e7f7-4099-9369-77aedbcbc313" />
